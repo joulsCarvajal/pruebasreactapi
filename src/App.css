@@ -1,0 +1,42 @@
+/* App.css */
+
+/* Estilos para el contenedor principal */
+.App {
+  text-align: center;
+}
+
+/* Estilos para el título */
+h1 {
+  font-size: 24px;
+  color: #333; /* Color de texto */
+  margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF; /* Color de fondo del botón */
+  color: #fff; /* Color de texto del botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/* Estilo para los botones al pasar el cursor por encima */
+button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para los botones de cargar imagen y segunda solicitud PUT */
+button.upload-button,
+button.second-put-button {
+  background-color: #28a745; /* Cambia el color de fondo */
+}
+
+/* Estilo para los botones al pasar el cursor por encima */
+button.upload-button:hover,
+button.second-put-button:hover {
+  background-color: #1f8c34; /* Cambia el color de fondo al pasar el cursor */
+}
